@@ -1,16 +1,14 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Login from "./Login";
-import Teacher from "./Pages/Teacher";
+
 import Class from "./Pages/Class";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import TeacherNew from "./Pages/TeacherNew";
-import { useState } from "react";
+
 import TeacherNewData from "./Pages/TeacherNewData";
 import ForgotPassword from "./Pages/ForgotPassword";
-import Profile from "./Pages/Profile";
-import Attendance from "./Pages/Attendance";
+
 import ProfileNew from "./Pages/ProfileNew";
 import AttendanceNew from "./Pages/AttendanceNew";
 import MyCalender from "./Pages/MyCalender";

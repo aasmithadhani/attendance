@@ -35,7 +35,7 @@ export default function validateInfoNew(values, page) {
   }
 
   if (c == 0) {
-    alert("Success");
+    console.log("Success");
   }
   return errors;
 }

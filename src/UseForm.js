@@ -55,7 +55,7 @@ const useForm = (
 
     //Fetching the refresh and access tokens from the backend
     axios
-      .post("http://attendanceportal.pythonanywhere.com/accounts/login/", {
+      .post("https://attendanceportal.pythonanywhere.com/accounts/login/", {
         sap_id,
         password,
       })
