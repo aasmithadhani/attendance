@@ -118,7 +118,7 @@ function ProfileNew() {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://attendanceportal.pythonanywhere.com/accounts/teacher-profile/",
+      url: "https://attendanceportal.pythonanywhere.com/accounts/teacher-profile/",
       headers: {
         Authorization: `Bearer ${token}`,
       },

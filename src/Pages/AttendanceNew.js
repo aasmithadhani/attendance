@@ -181,7 +181,7 @@ const Attendance = ({}) => {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "http://attendanceportal.pythonanywhere.com/attendance/batch-data/",
+      url: "https://attendanceportal.pythonanywhere.com/attendance/batch-data/",
       headers: {
         "Content-Type": "application/json",
       },

@@ -124,7 +124,7 @@ const TeacherNewData = () => {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://attendanceportal.pythonanywhere.com/attendance/assigned-teacher-lecture/",
+      url: "https://attendanceportal.pythonanywhere.com/attendance/assigned-teacher-lecture/",
       headers: {
         Authorization: `Bearer ${token}`,
       },

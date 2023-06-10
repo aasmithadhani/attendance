@@ -161,7 +161,7 @@ function LatestModal() {
       // );
       console.log(newPost);
       const resp = await axios.post(
-        "http://attendanceportal.pythonanywhere.com/attendance/lecture/",
+        "https://attendanceportal.pythonanywhere.com/attendance/lecture/",
         newPost
       );
       console.log(newPost);

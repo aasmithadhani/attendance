@@ -63,7 +63,7 @@ const Attendance = ({}) => {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://attendanceportal.pythonanywhere.com/attendance/teachers-batch/",
+      url: "https://attendanceportal.pythonanywhere.com/attendance/teachers-batch/",
       headers: {
         Authorization: `Bearer ${token}`,
       },
